@@ -264,7 +264,7 @@ one we want removed_.
 One common approach to this problem of creating a new array that doesn't include
 a specific element is using the `.filter` method. Here's how we can do it:
 
-```jsx
+```jsx8
 function handleLiClick(id) {
   const newFoodArray = foods.filter((food) => food.id !== id);
   setFoods(newFoodArray);
